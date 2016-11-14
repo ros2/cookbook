@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
   rclcpp::init(argc, argv);
-  auto node = rclcpp::node::Node::make_shared("minimal_talker");
+  auto node = rclcpp::node::Node::make_shared("old_school_talker");
   auto publisher = node->create_publisher<std_msgs::msg::String>("chatter");
   auto message = std::make_shared<std_msgs::msg::String>();
   auto publish_count = 1;
