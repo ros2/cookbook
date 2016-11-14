@@ -1,8 +1,10 @@
 # cookbook
 
-Welcome! This repo contains some short-and-sweet recipes for doing a variety of
-tasks in ROS 2. The hope is that some of this code will be useful to
-copy-and-paste as you are working on your own projects. Cheers!
+Welcome!
+This repo contains some short-and-sweet recipes for doing a variety of tasks in
+ROS 2.
+The hope is that some of this code will be useful to copy-and-paste as you are
+working on your own projects. Cheers!
 
 ## installing your cookbook
 (subject to change)
