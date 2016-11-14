@@ -1,5 +1,8 @@
 # cookbook
 
+Welcome! This repo contains some short-and-sweet recipes for doing a variety of
+tasks in ROS 2.
+
 ## installing your cookbook
 (subject to change)
 
@@ -9,7 +12,7 @@ cd ~/ros2
 wget https://raw.githubusercontent.com/ros2/ros2/master/ros2.repos
 vcs import src < ros2.repos
 cd ~/ros2/src
-git clone ssh://git@github.com/ros2/cookbook -o cookbook
+git clone https://github.com/ros2/cookbook -o cookbook
 ```
 
 ## building your cookbook
