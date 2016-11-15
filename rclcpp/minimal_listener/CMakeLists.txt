@@ -9,5 +9,15 @@ endif()
 
 add_executable(listener_lambda listener_lambda.cpp)
 ament_target_dependencies(listener_lambda rclcpp std_msgs)
-install(TARGETS listener_lambda DESTINATION bin)
+
+add_executable(listener_member_function listener_member_function.cpp)
+ament_target_dependencies(listener_member_function rclcpp std_msgs)
+
+add_executable(listener_without_subclass listener_without_subclass.cpp)
+ament_target_dependencies(listener_without_subclass rclcpp std_msgs)
+
+install(TARGETS listener_lambda
+                listener_member_function
+                listener_without_subclass
+        DESTINATION bin)
 ament_package()
