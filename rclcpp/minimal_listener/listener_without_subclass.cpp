@@ -8,7 +8,7 @@
 
 void chatter_callback(const std_msgs::msg::String::SharedPtr msg)
 {
-	printf("I heard: [%s]\n", msg->data.c_str());
+  printf("I heard: [%s]\n", msg->data.c_str());
 }
 
 int main(int argc, char *argv[])
@@ -17,6 +17,6 @@ int main(int argc, char *argv[])
   auto node = rclcpp::node::Node::make_shared("old_school_listener");
   auto subscription = node->create_subscription<std_msgs::msg::String>
       ("chatter", chatter_callback);
-	rclcpp::spin(node);
+  rclcpp::spin(node);
   return 0;
 }
