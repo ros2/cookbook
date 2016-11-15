@@ -24,3 +24,8 @@ git clone https://github.com/ros2/cookbook -o cookbook
 cd ~/ros2
 src/ament/ament_tools/scripts/ament.py build -s
 ```
+
+## License
+
+All software in this cookbook is released under the Apache 2.0 License, as
+provided in the LICENSE file in the root of this repository.
